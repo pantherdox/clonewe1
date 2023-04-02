@@ -10,6 +10,7 @@ h1, h2 , h3, h4 {
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,7 +59,7 @@ ul{
 }
 
 .main-nav{
-    margin-top: 20px;
+    padding: 20px;
     justify-content: space-between;
 }
 
@@ -94,9 +95,9 @@ ul{
 }
 
 .secondary-btn{
-    border: 1px solid #74bbf1 ;
+    border: 1px solid #74bbf1;
     border-radius: 8px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 12px 24px;
     color: black;
 }
@@ -413,6 +414,7 @@ footer{
     right: 30px;
     background-color: #2294ed;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .contactus:hover{
