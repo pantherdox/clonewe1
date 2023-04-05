@@ -1,0 +1,167 @@
+@media screen and (max-width: 991px) {
+
+    .h3{
+        font-size: 1rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-bar{
+        flex-direction: column;
+    }
+
+    .example-area{
+        gap: 20px;
+    }
+
+    .example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .image-text{
+        display: none;
+    }
+    
+    .h4-1{
+        display: none;
+    }
+    
+    .h4-2{
+        display: none;
+    }
+    
+    .image-text-1{
+        display: none;
+    }
+
+    .testing{
+        margin-block: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .left-header{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .primary-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactus{
+        position: fixed !important;
+        width: 50px !important;
+        height: 50px !important;
+        bottom: 40px !important;
+        right: 30px !important;
+        background-color: #2294ed !important;
+        border-radius: 25px !important;
+        cursor: pointer !important;
+    }
+    
+    .contactus:hover{
+        box-shadow: 0 0 5px black !important;
+    }
+    
+    .icon{
+        position: relative !important;
+        bottom: 4px !important;
+        right: 14px !important;
+        font-size: 2rem !important;
+    }
+
+    .feature-card{
+        min-width: calc(50% - 10px);
+    }
+
+    .big-section{
+        flex-direction: column;
+    }
+
+    .big-section:nth-child(2){
+        flex-direction: column-reverse;
+    }
+
+    .cta-section{
+        height: 100%;
+    }
+
+    .cta-flex{
+        flex-direction: column-reverse;
+    }
+    
+    .image-second{
+        display: none;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column{
+        align-items: stretch;
+    }
+
+    .sub-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    
+    .example-card{
+        width: 100%;
+    }
+
+    .feature-card{
+        min-width: 100%;
+    }
+
+    .feature-header{
+        margin-bottom: 50px;
+    }
+}
